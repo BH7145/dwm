@@ -6,7 +6,7 @@ dwm_date () {
 		printf "$(date +%Y.%m.%d' ⏰'%H:%M)"
 }
 #电量
-dwm_acpi() {
+dwm_acpi () {
       dl=$(acpi | awk -F", " '{print $2}' )
 	    if (acpi -a |grep -q on);then
 					echo 🔌;
