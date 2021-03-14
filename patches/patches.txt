@@ -1,0 +1,8 @@
+alphasystray
+autostart
+fullscreen
+hide_vacant_tags
+noborder
+pertag
+r1522-viewontag
+vanitygaps
